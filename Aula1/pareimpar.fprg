@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DevBackEnd2s24"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-27 12:59:11 "/>
+        <attribute name="created" value="RGV2QmFja0VuZDJzMjQ7U041MTItMTI0Mjk4ODsyMDI0LTA3LTI3OyIxMjozMTowMCAiOzMxMTY="/>
+        <attribute name="edited" value="RGV2QmFja0VuZDJzMjQ7U041MTItMTI0Mjk4ODsyMDI0LTA3LTI3OyIxMjo1OToxMSAiOzE7MzIzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numUsuario" type="Integer" array="False" size=""/>
+            <output expression="&quot;escreva seu numero&quot;" newline="True"/>
+            <input variable="numUsuario"/>
+            <if expression="numUsuario%2=0">
+                <then>
+                    <output expression="&quot;seu n&#250;mero e par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;seu n&#250;mero e impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
